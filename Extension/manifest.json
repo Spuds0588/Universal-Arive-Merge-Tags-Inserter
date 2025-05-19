@@ -1,12 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "Universal Arive Merge Tags Inserter",
+  "name": "Universal ARIVE Merge Tags Inserter",
   "version": "1.1.0",
   "description": "Quickly insert ARIVE-compatible information tags using {{ trigger or right-click.",
   "permissions": [
-    "contextMenus",
-    "scripting",
-    "activeTab"
+    "contextMenus"
   ],
   "background": {
     "service_worker": "background.js"
